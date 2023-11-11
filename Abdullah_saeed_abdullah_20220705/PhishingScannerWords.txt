@@ -1,0 +1,30 @@
+1Urgent
+3Account verification
+1Suspicious activity
+1Limited time offer
+1Update your information
+1Security breach
+3Confirm your account
+1Unusual login attempts
+2Account locked
+2Verify your identity
+2Important notice
+3Your account has been compromised
+1Immediate action required
+2Password reset
+3Payment overdue
+2Your account will be closed
+1Free gift
+1Prize winner
+1Tax refund
+1Bank of America
+1PayPal
+1Amazon
+1Apple
+1Microsoft
+1Netflix
+1Google
+1Facebook
+2eBay
+1Wells Fargo
+1Citibank.
