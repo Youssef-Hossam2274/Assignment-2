@@ -1,3 +1,11 @@
+//File: Q8. Fractal Pattern.cpp
+// Purpose: Print a specific pattern of asterisks
+// Author: Eslam Sayed Younus
+// Section: S9
+// ID: 20220495 
+// TA: ……………………
+// Date: 2 Nov 2023
+
 #include<iostream>
 #include<sstream>
 #include<cmath>

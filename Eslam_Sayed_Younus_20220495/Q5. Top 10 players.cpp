@@ -1,3 +1,11 @@
+//File: Q5. Top 10 players.cpp
+// Purpose: print an updated version of top 10 players 
+// Author: Eslam Sayed Younus
+// Section: S9
+// ID: 20220495 
+// TA: ……………………
+// Date: 4 Nov 2023
+
 #include<iostream>
 #include<sstream>
 #include<string>
