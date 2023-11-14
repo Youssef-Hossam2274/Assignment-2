@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 #include <algorithm>
 #include <cassert>
 #include "BigReal.h"
