@@ -1,3 +1,11 @@
+//File: Q2.Converts male speech to male and female.cpp
+// Purpose: Converts male speech to male and female, e.g he---> he or she 
+// Author: Eslam Sayed Younus. 
+// Section: S9
+// ID: 20220495 
+// TA: ……………………
+// Date: 2 Nov 2023
+
 #include<iostream>
 #include<sstream>
 #include<bits/stdc++.h>
