@@ -1,11 +1,20 @@
+// File: problem #10.cpp
+// Purpose: XXXXX
+// Author: Youssef Hossam.
+// Section: S9/S10.
+// ID: 20220390
+// TA: Samar Sabry Shaker
+// Date: 14 NOV 2023
+
 #include <iostream>
 #include <istream>
+#include <string>
 #include <unordered_map>
 #include <vector>
 #include <fstream>
 using namespace std;
 
-void build_lookUpTable(unordered_map<string, string>& table, string file_name)
+void build_lookUpTable(unordered_map<string, string> &table, string file_name)
 {
     fstream file_handle(file_name.c_str());
     if (file_handle.fail())
@@ -20,7 +29,7 @@ void build_lookUpTable(unordered_map<string, string>& table, string file_name)
     }
 }
 
-vector <string> SplitLine(string line)
+vector<string> SplitLine(string line)
 {
     vector<string> details;
     string substr;
@@ -36,7 +45,7 @@ vector <string> SplitLine(string line)
     return details;
 }
 
-void build_txt(vector<vector<string>>& content, string file_name)
+void build_txt(vector<vector<string>> &content, string file_name)
 {
     fstream file_handle(file_name.c_str());
     if (file_handle.fail())
@@ -47,7 +56,7 @@ void build_txt(vector<vector<string>>& content, string file_name)
         content.push_back(SplitLine(line));
 }
 
-void Alternative_save(vector<vector<string>>& content, unordered_map<string, string>& table, string file_name)
+void Alternative_save(vector<vector<string>> &content, unordered_map<string, string> &table, string file_name)
 {
     fstream file_handle(file_name.c_str());
     if (file_handle.fail())
