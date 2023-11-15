@@ -48,8 +48,11 @@ void Read_line_by_line() {
             } else {
                 cout << "There is a difference in line: " << line_counter << " between " << word_1 << " and " << word_2 << endl;
                 return;
+                
             }
+            
         }
+        
     }
     cout << "The two files are identical\n"; 
 }
@@ -69,11 +72,11 @@ void character_by_character() {
                 cout << "line 1:" << line_1 << endl;
                 cout << "line 2:" << line_2 << endl;
                 return;
-            }   
+            }
+            
         }
     }
-    
-    cout << "The two files are identical\n";
+        cout << "The two files are identical\n";
 }
 
 int main() {
